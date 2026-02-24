@@ -7,7 +7,6 @@ public class Peso50Dispenser implements DispenseChain {
         this.chain = nextChain;
     }
 
-
     @Override
     public void dispense(Currency cur) {
         if (cur.getAmount() >= 50) {
